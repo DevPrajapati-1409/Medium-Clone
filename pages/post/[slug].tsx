@@ -203,7 +203,7 @@ export default Post
 
 export const getStaticPaths = async () => {
   const query = `
-  *[_type == "post" && slug.current == "post"]{
+  *[_type == "post"]{
     _id,
     _createdAt,
     title,
