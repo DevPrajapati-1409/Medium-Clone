@@ -25,7 +25,6 @@ function Post({ post }: Props) {
         reset()
       })
       .catch((err) => {
-        console.log('There is an error!')
         setSubmitted(false)
       })
   }
