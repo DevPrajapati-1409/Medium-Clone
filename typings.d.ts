@@ -1,5 +1,5 @@
 export interface Props {
-  posts: [Post]
+  posts: Post[]
 }
 
 export interface Post {
